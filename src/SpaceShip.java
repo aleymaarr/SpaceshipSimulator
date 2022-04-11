@@ -98,4 +98,21 @@ public class SpaceShip {
         coordenadaFinal = coordenadaX + velocidadFinal;
         return  coordenadaFinal;
     }
+    @Override
+    public String toString() {
+        return "SpaceShip{" +
+                "nombre='" + nombre + '\'' +
+                '}'  + "           ___\n" +
+                "     |     | |\n" +
+                "    / \\    | |\n" +
+                "   |--o|===|-|\n" +
+                "   |---|   |d|\n" +
+                "  /     \\  |w|\n" +
+                " | U     | |b|\n" +
+                " | S     |=| |\n" +
+                " | A     | | |\n" +
+                " |_______| |_|\n" +
+                "  |@| |@|  | |\n" +
+                "___________|_|_\n" ;
+    }
 }
