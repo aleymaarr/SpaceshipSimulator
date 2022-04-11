@@ -8,6 +8,8 @@ public class SpaceShip {
     private int coordenadaY;
     private int direccionX;
     private int direccionY;
+    int velocidadFinal;
+    int coordenadaFinal;
 
     public SpaceShip(int velocidadX, int velocidadY, int coordenadaX, int coordenadaY, int direccionX, int direccionY) {
         this.velocidadX = velocidadX;
@@ -90,4 +92,10 @@ public class SpaceShip {
         this.direccionY = direccionY;
     }
 
+
+    public int speedUp(){
+        velocidadFinal = velocidadX + aceleracion;
+        coordenadaFinal = coordenadaX + velocidadFinal;
+        return  coordenadaFinal;
+    }
 }
