@@ -36,3 +36,6 @@
 
 Este proyecto esta creado por: Alejandro Eymar Ballesteros de 1ºDAM hecho en Salesianos de  la Cuesta de Lalaguna | © 2022/20023 .
 
+
+Informacion de la clase SpaceShip:
+> https://github.com/aleymaarr/SpaceshipSimulator/blob/main/README.md (docs/SpaceShip.md)
