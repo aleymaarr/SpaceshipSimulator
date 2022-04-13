@@ -1,4 +1,4 @@
-public class SpaceShip {
+public class SpaceShip{
     private String nombre;
     private String matriculagalatica;
     private int aceleracion;
