@@ -104,6 +104,12 @@ public class SpaceShip {
         coordenadaFinal = coordenadaX + velocidadFinal;
         return  coordenadaFinal;
     }
+    public int emergencyStop(){
+        velocidadFinal = 0;
+        coordenadaFinal = coordenadaX + velocidadFinal;
+        return  coordenadaFinal;
+    }
+
     @Override
     public String toString() {
         return "SpaceShip{" +
