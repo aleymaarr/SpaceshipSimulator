@@ -1,8 +1,8 @@
 public class Cargo  extends  SpaceShip{
     private int cargaMaxima;
     private  int  container;
-    public Cargo(int velocidadX, int velocidadY, int coordenadaX, int coordenadaY, int direccionX, int direccionY, int cargaMaxima, int numeroContainers) {
-        super(velocidadX, velocidadY, coordenadaX, coordenadaY, direccionX, direccionY);
+    public Cargo(String nombre,int velocidadX, int velocidadY, int coordenadaX, int coordenadaY, int direccionX, int direccionY, int cargaMaxima, int numeroContainers) {
+        super(nombre,velocidadX, velocidadY, coordenadaX, coordenadaY, direccionX, direccionY);
         this.cargaMaxima = cargaMaxima;
         this.container = numeroContainers;
     }

@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        String nombre;
         int velocidadx;
         int velocidadY;
         int coordenadaX;
@@ -11,6 +12,9 @@ public class Main {
         int direccionY;
         int opcion;
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Introduzca el nombre de la nave:");
+        nombre = scanner.next();
 
         System.out.println("Introduzca la velocidad x de la nave:");
         velocidadx = scanner.nextInt();
@@ -35,7 +39,7 @@ public class Main {
 
 
 
-        SpaceShip nave = new SpaceShip(velocidadx,velocidadY,coordenadaX,coordenadaY,direccionX,direccionY);
+        SpaceShip nave = new SpaceShip(nombre,velocidadx,velocidadY,coordenadaX,coordenadaY,direccionX,direccionY);
         System.out.println(nave);
 
         do{
