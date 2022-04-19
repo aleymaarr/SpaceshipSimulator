@@ -39,3 +39,6 @@ Este proyecto esta creado por: Alejandro Eymar Ballesteros de 1ºDAM hecho en Sa
 
 Informacion de la clase SpaceShip:
 > https://github.com/aleymaarr/SpaceshipSimulator/blob/development/docs/SpaceShip.md
+> 
+Informacion de la clase Cargo:
+> https://github.com/aleymaarr/SpaceshipSimulator/blob/development/docs/Cargo.md
