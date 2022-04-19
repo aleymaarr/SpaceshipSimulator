@@ -12,22 +12,22 @@ public class Main {
         int opcion;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Introduzca la velocidad x de la nave: \n");
+        System.out.println("Introduzca la velocidad x de la nave:");
         velocidadx = scanner.nextInt();
 
-        System.out.println("Introduzca la velocidad y de la nave: \n");
+        System.out.println("Introduzca la velocidad y de la nave:");
         velocidadY = scanner.nextInt();
 
-        System.out.println("Introduzca la coordenada x de la nave: \n");
+        System.out.println("Introduzca la coordenada x de la nave:");
         coordenadaX= scanner.nextInt();
 
-        System.out.println("Introduzca la coordenada Y de la nave: \n");
+        System.out.println("Introduzca la coordenada Y de la nave:");
         coordenadaY= scanner.nextInt();
 
-        System.out.println("Introduzca la direccion X de la nave: \n");
+        System.out.println("Introduzca la direccion X de la nave:");
         direccionX= scanner.nextInt();
 
-        System.out.println("Introduzca la direccion Y de la nave: \n");
+        System.out.println("Introduzca la direccion Y de la nave:");
         direccionY= scanner.nextInt();
 
 
@@ -40,11 +40,11 @@ public class Main {
 
         do{
 
-            System.out.println("Por favor introduzca la opcion de que desee de las siguientes: " +
-                    "1- Acelerar la nave" +
-                    "2- Frene la nave" +
-                    "3- Pare la nave" +
-                    "4- Salir");
+            System.out.println("Por favor introduzca la opcion de que desee de las siguientes: \n" +
+                    "1- Acelerar la nave \n" +
+                    "2- Frene la nave \n" +
+                    "3- Pare la nave \n " +
+                    "4- Salir ");
             opcion= scanner.nextInt();
             switch (opcion){
                 case 1:
