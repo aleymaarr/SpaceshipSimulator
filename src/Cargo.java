@@ -30,6 +30,13 @@ public class Cargo  extends  SpaceShip{
             container++;
         }
     }
+    public void unload() {
+        if (container <= 0){
+            System.out.println("La nave esta vacia \n");
+        } else{
+            container = container -1;
+        }
+    }
 }
 
 
