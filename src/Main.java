@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         String nombre;
+        String matriculag;
         int velocidadx;
         int velocidadY;
         int coordenadaX;
@@ -15,6 +16,9 @@ public class Main {
 
         System.out.println("Introduzca el nombre de la nave:");
         nombre = scanner.next();
+
+        System.out.println("Introduzca la matricula de la nave:");
+        matriculag = scanner.next();
 
         System.out.println("Introduzca la velocidad x de la nave:");
         velocidadx = scanner.nextInt();
@@ -39,7 +43,7 @@ public class Main {
 
 
 
-        SpaceShip nave = new SpaceShip(nombre,velocidadx,velocidadY,coordenadaX,coordenadaY,direccionX,direccionY);
+        SpaceShip nave = new SpaceShip(nombre,matriculag,velocidadx,velocidadY,coordenadaX,coordenadaY,direccionX,direccionY);
         System.out.println(nave);
 
         do{

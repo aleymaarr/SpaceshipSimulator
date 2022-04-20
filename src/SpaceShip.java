@@ -11,8 +11,9 @@ public class SpaceShip{
     int velocidadFinal;
     int coordenadaFinal;
 
-    public SpaceShip(String nombre,int velocidadX, int velocidadY, int coordenadaX, int coordenadaY, int direccionX, int direccionY) {
+    public SpaceShip(String nombre, String matriculagalatica,int velocidadX, int velocidadY, int coordenadaX, int coordenadaY, int direccionX, int direccionY) {
         this.nombre = nombre;
+        this.matriculagalatica = matriculagalatica;
         this.velocidadX = velocidadX;
         this.velocidadY = velocidadY;
         this.coordenadaX = coordenadaX;

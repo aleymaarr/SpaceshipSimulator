@@ -1,40 +1,25 @@
 public class Cargo  extends  SpaceShip{
-    private int cargaMaxima;
-    private  int  container;
-    public Cargo(String nombre,int velocidadX, int velocidadY, int coordenadaX, int coordenadaY, int direccionX, int direccionY, int cargaMaxima, int numeroContainers) {
-        super(nombre,velocidadX, velocidadY, coordenadaX, coordenadaY, direccionX, direccionY);
-        this.cargaMaxima = cargaMaxima;
-        this.container = numeroContainers;
+    private final int cargaMaxima= 100;
+    private  final int  container = 1;
+    private int contenedores;
+    public Cargo(String nombre, String matriculagalatica,int velocidadX, int velocidadY, int coordenadaX, int coordenadaY, int direccionX, int direccionY, int cargaMaxima, int numeroContainers) {
+        super(nombre,matriculagalatica,velocidadX, velocidadY, coordenadaX, coordenadaY, direccionX, direccionY);
+
     }
 
-    public int getCargaMáxima() {
-        return cargaMaxima;
-    }
-
-    public void setCargaMáxima(int cargaMáxima) {
-        this.cargaMaxima = cargaMaxima;
-    }
-
-    public int getContainer() {
-        return container;
-    }
-
-    public void setcontainer(int container) {
-        this.container = container;
-    }
 
     public void load() {
-        if (container >= cargaMaxima){
+        if (contenedores >= cargaMaxima){
             System.out.println("No se puede introducir otro contenedor, la bodega ya esta llena \n");
         } else{
-            container++;
+            contenedores= contenedores + container;
         }
     }
     public void unload() {
-        if (container <= 0){
+        if (contenedores <= 0){
             System.out.println("La nave esta vacia \n");
         } else{
-            container = container -1;
+            contenedores = contenedores -container;
         }
     }
 }
